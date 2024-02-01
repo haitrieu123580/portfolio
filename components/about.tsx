@@ -19,26 +19,25 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        I'm currently a student at Da Nang University of Science and Technology
+        (DUT), pursuing a degree in Information Technology with a specialization
+        in Software Technology. <br></br>
+        My academic journey at DUT has equipped me with a solid foundation in
+        software development. I specialize in various technologies, with
+        proficiency in
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+          React, Laravel, Express, and more.
+        </span>{" "}
       </p>
-
-      <p>
+      <p className="mb-3">
+        I am passionate about leveraging these skills to create innovative and
+        efficient solutions. Eager to contribute to the world of technology, I
+        am continuously exploring new horizons and embracing challenges in the
+        dynamic field of software development.
+      </p>
+      <p className="mb-3">
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
+        video games, watching movies. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
         <span className="font-medium">history and philosophy</span>. I'm also
