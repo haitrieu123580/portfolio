@@ -4,7 +4,8 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import Innsight from "@/public/InnSight.png";
 import SMember from "@/public/SgroupMember.jpg";
-import SmartCradle from "@/public/SgroupMember.jpg";
+import SmartCradle from "@/public/smart_cardle.png";
+import Flashcard from "@/public/Flashcard.png";
 
 export const links = [
   {
@@ -23,10 +24,10 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
-  // {
-  //   name: "Experience",
-  //   hash: "#experience",
-  // },
+  {
+    name: "Experience",
+    hash: "#experience",
+  },
   {
     name: "Contact",
     hash: "#contact",
@@ -35,39 +36,63 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Innsight",
-    location: "Miami, FL",
+    title: "S-Group",
+    location: "Da Nang, Viet Nam",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "S-Member",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I learn about NodeJs, ExpressJs for backend and HTML, CSS and Javascript for frontend.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "10/2022 - 06/2023",
   },
   {
-    title: "Smart Cradle",
-    location: "Houston, TX",
+    title: "DUT Scholarship",
+    location: "Da Nang, Viet Nam",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Scholarship for students with excellent academic achievements. I have been awarded the scholarship in the academic year 2022-2023.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022 - 2023",
+  },
+  {
+    title: "TOPloop VietNam",
+    location: "Da Nang, Viet Nam",
+    description:
+      "Web Developer Intern, I worked as a full-stack developer for 6 months. My stack includes React, TypeScript, Tailwind, Laravel and PostgreSQL.",
+    icon: React.createElement(CgWorkAlt),
+    date: "08/2023-03/2024",
+  },
+  {
+    title: "EVN Scholarship",
+    location: "Da Nang, Viet Nam",
+    description:
+      "Scholarship for students with excellent academic achievements. I have been awarded the scholarship in the academic year 2023-2024.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023-2024",
+  },
+  {
+    title: "Da Nang University of Science and Technology",
+    location: "Da Nang, Viet Nam",
+    description:
+      "I am studying Computer Science at Da Nang University of Science and Technology. I have learned about algorithms, data structures, and programming languages such as  Java, Python, and C#. I have also learned about web development IoT, and AI.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2020 - Present",
   },
 ] as const;
 
 export const projectsData = [
   {
+    title: "Learn English by Flashcard",
+    description:
+      `This project is a web application that helps users learn English vocabulary, pronounciation and seft-testing.`,
+    tags: ["Express", "React", "PostgreSQL", "Tailwind", "OAuth2"],
+    imageUrl: Flashcard,
+    github: "https://github.com/haitrieu123580/flashcard.git"
+  },
+  {
     title: "Innsight",
     description:
       `This booking system creates an online community connecting users and hosts, providing a flexible and convenient room rental experience, while offering efficient management tools for the admin.`,
-    tags: ["React", "React Native", "MySQL", "Tailwind", "Spring","Firebase"],
+    tags: ["React", "React Native", "MySQL", "Tailwind", "Spring"],
     imageUrl: Innsight,
-    github:"https://github.com/haitrieu123580/InnSight-Client.git"
+    github: "https://github.com/haitrieu123580/InnSight-Client.git"
   },
   {
     title: "Smart Cradle",
@@ -77,8 +102,8 @@ export const projectsData = [
       system`,
     tags: ["Python", "Firebase", "Tensorflow", "Java"],
     imageUrl: SmartCradle,
-    github:"https://github.com/haitrieu123580/PBL5_BabyCryingDetection_raspberry.git",
-    },
+    github: "https://github.com/haitrieu123580/PBL5_BabyCryingDetection_raspberry.git",
+  },
   {
     title: "S-Member",
     description:
@@ -87,7 +112,7 @@ export const projectsData = [
       functionality.`,
     tags: ["NodeJs", "ExpressJs", "React", "MySQL", "Sequelize"],
     imageUrl: SMember,
-    github:"https://github.com/haitrieu123580/S_Group_BE.git"
+    github: "https://github.com/haitrieu123580/S_Group_BE.git"
   },
 ] as const;
 
@@ -99,11 +124,12 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
-  "Git",
   "Tailwind",
-  "MongoDB",
   "Express",
+  "Laravel",
   "PostgreSQL",
-  "Python",
-  "Django",
+  "MongoDB",
+  "Git",
+  // "Python",
+  // "Django",
 ] as const;
