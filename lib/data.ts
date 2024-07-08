@@ -57,7 +57,7 @@ export const experiencesData = [
     description:
       "Web Developer Intern, I worked as a full-stack developer for 6 months. My stack includes React, TypeScript, Tailwind, Laravel and PostgreSQL.",
     icon: React.createElement(CgWorkAlt),
-    date: "08/2023-03/2024",
+    date: "05/2023-05/2024",
   },
   {
     title: "EVN Scholarship",
@@ -73,7 +73,7 @@ export const experiencesData = [
     description:
       "I am studying Computer Science at Da Nang University of Science and Technology. I have learned about algorithms, data structures, and programming languages such as  Java, Python, and C#. I have also learned about web development IoT, and AI.",
     icon: React.createElement(LuGraduationCap),
-    date: "2020 - Present",
+    date: "2020 - 2024",
   },
 ] as const;
 
@@ -130,6 +130,6 @@ export const skillsData = [
   "PostgreSQL",
   "MongoDB",
   "Git",
-  // "Python",
+  "Python",
   // "Django",
 ] as const;
