@@ -79,6 +79,7 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    id:1,
     title: "Learn English by Flashcard",
     description:
       `This project is a web application that helps users learn English vocabulary, pronounciation and seft-testing.`,
@@ -87,6 +88,7 @@ export const projectsData = [
     github: "https://github.com/haitrieu123580/flashcard.git"
   },
   {
+    id:2,
     title: "Innsight",
     description:
       `This booking system creates an online community connecting users and hosts, providing a flexible and convenient room rental experience, while offering efficient management tools for the admin.`,
@@ -95,6 +97,7 @@ export const projectsData = [
     github: "https://github.com/haitrieu123580/InnSight-Client.git"
   },
   {
+    id:3,
     title: "Smart Cradle",
     description:
       `Building a system for recognizing baby crying sound using AI combined with 
@@ -105,6 +108,7 @@ export const projectsData = [
     github: "https://github.com/haitrieu123580/PBL5_BabyCryingDetection_raspberry.git",
   },
   {
+    id:4,
     title: "S-Member",
     description:
       `This project involves building a web server to manage user accounts. It 

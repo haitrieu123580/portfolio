@@ -29,10 +29,7 @@ export default function RootLayout({
 
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
-            <Header />
-            {children}
-            <Footer />
-
+               {children}
             <Toaster position="top-right" />
             <ThemeSwitch />
           </ActiveSectionContextProvider>
